@@ -49,7 +49,8 @@ class App extends Component {
 							
 							<Route path='/:network/random' component={Cryptocurrency} />
 							<Route path='/:network/cryptocurrency' component={Cryptocurrency} />
-	
+
+							<Route component={Network} />	
 						</Switch>
 					</main>
 
